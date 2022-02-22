@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,104 +8,340 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <!-- font awosome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
 <body>
 
     <!-- Header Section starts here -->
-    <section  class="header">
-       
+    <section class="header">
+
         <!-- navbar starts here -->
-        <nav class="Nav-bar">
-            <div class="logo">
-                <img src="./Assests/Apex Logo-1 1.png" alt="logo">
+        <nav>
+            <div class="Nav-bar">
+                <div href="/" class="logo">
+                    <img src="./Assests/images/Apex Logo-1 1.svg" alt="">
+                </div>
+    
+                <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+    
+                <div class="nav__link hide">
+                    <a href="./index.html">Home</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">SERVICES</a>
+                    <a href="#">PORTFOLIOS</a>
+                    <a href="./contact.html">CONTACT US</a>
+                </div>
             </div>
-            <div class="btn" onclick="button()">
-                <!-- <i class="bi bi-list"></i> -->
-            </div>
-            <ul class="ul-none" id="open">
-                <li><a href="">Home</a></li>
-                <li><a href="">Sector</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact US</a></li>
-            </ul>
         </nav>
         <!-- navbar ends here -->
         <!-- header content inner text starts here -->
         <div class="header-content">
             <div class="header-inner-text">
-                <h2>Lorem, ipsum dolor</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet iure unde id aliquid beatae. Placeat harum, corrupti .</p>
-            <button>Learn more</button>
-        </div>
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-linkedin"></i>
-        </div>
+                <h2>Wide Spectrum of Services</h2>
+                <p>we offer wide
+                    spectrum of services including investment
+                    services and facilitation to both public and
+                    private sectors entities and individuals
+                    seeking business advisory services.</p>
+                <button>Learn more</button>
+            </div>
+            <div class="icons">
+                <img src="./Assests/images/Group 9.png" alt="">
+                <img src="./Assests/images/Vector.png" alt="">
+                <img src="./Assests/images/Vector (1).png" alt="">
+            </div>
         </div>
         <!-- header content inner text ends here  -->
-    </section >
+    </section>
     <!-- Header Section ends here -->
 
     <!-- choose us section starts here -->
-        <section class="choose-us">
-            <div class="choose-content">
-                <div>
-                    <h2> Why Choose Us</h2>
-                    <i class="fa fa-long-arrow-right head"></i>
-                </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+    <section class="choose-us" id="about">
+        <div class="choose-content">
+            <div>
+                <h2> Why Choose Us</h2>
+                <img class="forward" src="./Assests/images/Line 4.svg" alt="">
             </div>
-
-            <div class="cards">
-                <!-- card 1  starts here-->
-                <div class="card">
-                    <i class="fa fa-shield fay"></i>
-                    <h5>01</h5>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.</p>
-                    <button>
-                        <i class="fa fa-long-arrow-right"></i>
-                    </button>
-                </div>
-                <!-- card 1 ends here -->
-                <!-- card 2  starts here-->
-                <div class="card">
-                    <i class="fa fa-handshake-o fay"></i>
-                    <h5>02</h5>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.</p>
-                    <button>
-                        <i class="fa fa-long-arrow-right"></i>
-                    </button>
-                </div>
-                <!-- card 2 ends here -->
-                <!-- card 3  starts here-->
-                <div class="card">
-                    <i class="fa  fa-certificate fay"></i>
-                    <h5>03  </h5>
-                    <h3>LOREM IPSUM</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.</p>
-                    <button>
-                        <i class="fa fa-long-arrow-right"></i>
-                    </button>
-                </div>
-                <!-- card 3 ends here -->
-            </div>
-        </section>
-    <!-- choose us section ends here -->
-    <section class="sector">
-        <div class="sector-content">
-            <h2> Why Choose Us</h2>
-            <i class="fa fa-long-arrow-right head"></i>
+            <p>
+                Apex & Co. is an investment company
+                registered under companies Act 2017
+                based out in Gilgit-Baltistan, offering wide
+                spectrum of services including investment
+                services and facilitation to both public and
+                private sectors entities and individuals
+                seeking business advisory services.
+            </p>
         </div>
-        <div class="sector-image">
-            
+
+        <div class="cards">
+            <!-- card 1  starts here-->
+            <div class="card">
+                <i class="fa-solid fa-binoculars fay"></i>
+                <h5>01</h5>
+                <h3>VISION</h3>
+                <ul>
+                    <li>•Client Needs</li>
+                    <li>•Communication</li>
+                    <li>•Commitment</li>
+                    <li>•People and Value</li>
+                </ul>
+                <button>
+                    <i class="fa fa-long-arrow-right"></i>
+                </button>
+            </div>
+            <!-- card 1 ends here -->
+            <!-- card 2  starts here-->
+            <div class="card">
+                <i class="fa-solid fa-rocket fay"></i>
+                <h5>02</h5>
+                <h3>MISSION</h3>
+                <ul>
+                    <li>•Exceeding partners Expectations</li>
+                    <li>•Cutting edge solutions</li>
+                    <li>•Relation based on reliability, trust & integrity</li>
+                </ul>
+                <button>
+                    <i class="fa fa-long-arrow-right"></i>
+                </button>
+            </div>
+            <!-- card 2 ends here -->
+            <!-- card 3  starts here-->
+            <div class="card">
+                <i class="fa-solid fa-hands-holding fay"></i>
+                <h5>03 </h5>
+                <h3>VALUES</h3>
+                <ul>
+                    <li>• Integrity & Honesty
+                    </li>
+                    <li>• Confidentiality</li>
+                    <li>• Nature</li>
+                    <li>• IndependenceP</li>
+                </ul>
+                <button>
+                    <i class="fa fa-long-arrow-right"></i>
+                </button>
+            </div>
+            <!-- card 3 ends here -->
         </div>
     </section>
+    <!-- choose us section ends here -->
+
+    <section class="sector" id="portfoilo">
+        <div class="sector-head">
+            <h2>Our Services</h2>
+            <img class="forward" src="./Assests/images/Line 4.svg" alt="">
+        </div>
+        <div class="cards">
+            <div class="col">
+                <div class="card">
+                    <div class="img-box">
+                        <img src="./Assests/images/advsory.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>Investment Advisory</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="img-box">
+                        <img src="./Assests/images/fund.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>Fund Management</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="img-box">
+                        <img src="./Assests/images/impact.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>Impact Investment</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="img-box">
+                        <img src="./Assests/images/service.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>Corporate Services</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards" style="margin-top: 25px;">
+            <div class="col">
+                <div class="card">
+                    <div class="img-box">
+                        <img src="./Assests/images/public.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>Public <br> Sector</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="img-box">
+                        <img src="./Assests/images/real.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>Real Estate Investment</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="img-box">
+                        <img src="./Assests/images/transcation.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4>Transaction Advisory</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="latest" id="blogs">
+        <div class="content-lastest">
+            <h2>Our Portfolios</h2>
+            <img class="forward" src="./Assests/images/Line 4.svg" alt="">
+        </div>
+        <div class="cards">
+            <!-- card 1  starts here-->
+            <div class="card">
+                <div class="latest-img1"></div>
+                <div class="inner-card img1">
+                    <img src="./Assests/images/logo-1.png" alt="">
+                    <p>Establishment of 80
+                        Seats BPO in Gilgit
+                        Baltistan Worth 115K US
+                        Dollars
+                    </p>
+                </div>
+            </div>
+            <!-- card 1 ends here -->
+            <!-- card 2  starts here-->
+            <div class="card">
+                <div class="latest-img2"></div>
+                <div class="inner-card img2">
+                    <img src="./Assests/images/logo-2.png" alt="">
+                    <p>GBINVEST.ORG offers once window solutions to the private sector impact
+                        investors for the
+                        sustainable growth of the
+                        region (GB)
+                    </p>
+                </div>
+            </div>
+            <!-- card 2 ends here -->
+            <!-- card 3  starts here-->
+            <div class="card">
+                <div class="latest-img3"></div>
+                <div class="inner-card img3">
+                    <img src="./Assests/images/Group 226.png" alt="">
+                    <p>Rupani Academy Gilgit is the First
+                        IB Candidate school in GB and has
+                        been operating with a start of art
+                        facility with a total deployment
+                        capital of over 2 Million US Dollars
+                    </p>
+                </div>
+            </div>
+            <!-- card 3 ends here -->
+            <!-- card 4 ends here -->
+            <div class="card">
+                <div class="latest-img4"></div>
+                <div class="inner-card w-100 img4">
+                    <img src="./Assests/images/establishment.png" alt="">
+                    <p>Establishment of community based Eco-Tourism
+                        Resorts across Gilgit Baltistan. The initiative
+                        requires a minimum capital of USD 2 Million. The
+                        project is currently under R&D and preOperating phase. The first consignment has
+                        arrived Pakistan and will commence operations
+                        at two locations by May 2022.
+                    </p>
+                </div>
+            </div>
+            <!-- card 4 ends here -->
+            <!-- card 5 ends here -->
+            <div class="card">
+                <div class="latest-img5"></div>
+                <div class="inner-card w-100 img5">
+                    <img src="./Assests/images/Group 228.png" alt="">
+                    <p>Few more projects are currently in pipeline and
+                        under feasibility stage i.e.
+                        Housing, Trade &
+                        Commerce, Agriculture,
+                        Livestock and etc.
+                    </p>
+                </div>
+            </div>
+            <!-- card 5 ends here -->
+        </div>
+    </section>
+
+
+    <section class="Footer" id="contact">
+        <div class="footer-top">
+            <div class="footer-top-content">
+                <h2>Integrity and Honesty, Confidentiality,
+                    Nature, and Independence
+                </h2>
+                <button>learn more</button>
+            </div>
+        </div>
+        <div class="main-footer">
+            <div class="logo">
+                <img src="./Assests/images/Apex Logo-1 1.svg" alt="">
+            </div>
+            <div class="footer-content">
+                <div class="ul">
+                    <ul>
+                        <h2>Useful Websites</h2>
+                        <li>www.gbtechive.com</li>
+                        <li>www.gbinvest.org</li>
+                        <li>www.rupanifoundation.org</li>
+                    </ul>
+                    <div>
+                        <h2>Find Us Here</h2>
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>
+                            GB Invest Secretariat, Naveed Shaheed Road, Gilgit,
+                            Gilgit-Baltistan, Pakistan
+                        </p>
+                    </div>
+                    <div class="map">
+                        <img src="./Assests/images/map.png" alt="map">
+                    </div>
+                </div>
+                <!-- <hr style="width: 90%;background-color: #FBC045;"> -->
+                <div class="copywrite">
+                    <p>CopyRight <i class="fa fa-copyright"></i> 2020 Apex & Co. ltd. All Rights Reserved</p>
+                    <div class="icons">
+                        <img src="./Assests/images/Group 9.png" alt="">
+                        <img src="./Assests/images/Vector.png" alt="">
+                        <img src="./Assests/images/Vector (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/main.js"></script>
 </body>
+
 </html>

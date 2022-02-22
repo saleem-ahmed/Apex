@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>conatct us</title>
+</head>
+
+<body>
+    <header class="contact-header">
+        <!-- navbar starts here -->
+        <nav>
+            <div class="Nav-bar">
+                <div href="/" class="logo">
+                    <img src="./Assests/images/Apex Logo-1 1.svg" alt="">
+                </div>
+
+                <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+
+                <div class="nav__link hide">
+                    <a href="./index.html">Home</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">SERVICES</a>
+                    <a href="#">PORTFOLIOS</a>
+                    <a href="./contact.html">CONTACT US</a>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends here -->
+
+        <div class="about">
+            <div class="content">
+                <h2>About Us</h2>
+                <p>Apex & Co. is an investment company
+                    registered under companies Act 2017
+                    based out in Gilgit-Baltistan, offering wide
+                    spectrum of services including investment
+                    services and facilitation to both public and
+                    private sectors entities and individuals
+                    seeking business advisory services.
+                </p>
+                <p>
+
+                    The firm is led by a team of qualified and widely experienced professionals who have
+                    been passionate about achieving better
+                    results for our valued investors — results
+                    that stretch beyond financial and are
+                    exceptionally tailored, pragmatic, holistic
+                    and enduring.
+                </p>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLink = document.querySelector('.nav__link');
+
+    hamburger.addEventListener('click', () => {
+        navLink.classList.toggle('hide');
+    });
+</script>
+
+</html>
